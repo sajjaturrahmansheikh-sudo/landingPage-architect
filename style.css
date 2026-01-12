@@ -10,3 +10,120 @@
 body{
     font-family: "Work Sans", sans-serif;
 }
+
+
+
+
+/* shared css */
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-b{
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.color-orange{
+    background-color: #FF900E;
+}
+
+
+
+
+/* main css  */
+
+
+
+/* header area  */
+
+.header-area{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+.top-bar{
+    padding-top: 50px;
+}
+
+.logo h2{
+    font-size: 2.81rem;
+    text-transform: capitalize;
+    color: #131313;
+
+}
+
+.main-menu ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+.main-menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: #424242;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile device */
+
+@media screen and (max-width:576px){
+    .top-bar,
+    .main-menu ul{
+        flex-direction: column;
+    }
+
+    .main-menu li{
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+/* for tablet device */
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .top-bar,
+    .main-menu ul{
+        flex-direction: column;
+    }
+    .main-menu li{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
