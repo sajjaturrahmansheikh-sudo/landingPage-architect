@@ -307,6 +307,27 @@ body{
 
 
 
+/* footer section  */
+
+.footer{
+    margin-bottom: 200px;
+}
+
+.footer-section{
+    background: #FFF4E7;
+}
+
+.footer-content{
+    padding: 40px;
+}
+.footer-content p{
+    text-align: center;
+    font-size: 1.25rem;
+    color: #424242
+}
+
+
+
 
 
 
